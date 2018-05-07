@@ -1,0 +1,43 @@
+.nav-link .nav-item{
+  height: 50%;	
+}
+.nav-link .nav-item a{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+span a{
+	color: black !important;
+	font-size: 20px;
+
+}
+
+
+.circle{
+    background-color: black;   
+	border-radius: 50%;
+	}
+
+.fa-instagram, .fa-facebook, .fa-twitter{
+	
+	color:white;
+	padding: 6px 10px;
+}	
+.fa-instagram:hover, .fa-facebook:hover, .fa-twitter:hover{
+	
+	color:white;
+	background-color: green;
+	padding: 6px 10px;
+}	
+
+
+#subscribe{
+	background-color: black;
+	color: white;
+	width: 10vw
+}
+#subscribe:hover{
+	background-color: green;
+	color: white;
+	width: 10vw
+}

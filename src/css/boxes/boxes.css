@@ -1,0 +1,21 @@
+
+#CleanBox:hover,
+#SlimBox:hover,
+#BulkBox:hover,
+#GlutenBox:hover{
+	text-decoration: underline;
+	color: green;
+}
+
+.bulkBox{
+color: #2c6b8e;
+}
+.glutenBox {
+color: #b078a9;
+}
+.slimBox {
+color: #928d4d;
+}
+.cleanBox {
+ color: #4b7f5b;
+}

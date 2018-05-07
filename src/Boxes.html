@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Freshii Meal Box </title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/footerHeader.css">
+    <link rel="stylesheet" href="css/home/style.css">
+    <link rel="stylesheet" href="css/boxes/boxes.css">
+</head>
+
+<body id="home" class="m-auto">
+    <nav class="navbar d-md-none bg-light navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <a href="Boxes.html" class="navbar-brand">
+                <strong style="font-size: 40px">freshii</strong> <span>Meal Box</span>
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <span class="nav-link nav-item">
+                        <a href="howItWorks.html" >How It Works</a>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <span class="nav-link nav-item text-success font-weight-bold">
+                        <a id="navop1" href="Boxes.html#cleanBox" class="CleanBox" >Clean Box</a>
+                    </span>
+                </li>
+                <li class="nav-item text-success font-weight-bold">
+                    <span class="nav-link nav-item">
+                        <a id="navop2" href="Boxes.html#slimBox" class="SlimBox">Slim Box</a>
+                    </span>
+                </li>
+                <li class="nav-item text-success font-weight-bold">
+                    <span class="nav-link nav-item">
+                    <a id="navop3" href="Boxes.html#bulkBox" class="BulkBox">Bulk Box</a>
+                        
+                    </span>
+                </li>
+                <li class="nav-item text-success font-weight-bold">
+                    <span class="nav-link nav-item">
+                    <a id="navop4" href="Boxes.html#glutenBox" class="GlutenBox">Gluten Box</a>
+                        
+                    </span>
+                </li>
+                <li class="nav-item ">
+                    <span class="nav-link nav-item"> <a href="F.A.Q.html" >F.A.Q</a></span>
+                </li>
+                <li class="nav-item ">
+                    <span class="nav-link nav-item">
+                    <a href="FitnessPros.html">Fitness Pros</a>
+
+                    </span>
+                </li>
+                <li class="nav-item ">
+                    <span class="nav-link nav-item">
+                    <a href="Contact.html" >Contact</a>
+                        
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar-expand-md d-none d-md-block bg-light navbar-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon "></span>
+                    </button>
+                    <a href="Boxes.html" class="navbar-brand">
+                <strong style="font-size: 40px">freshii</strong> <span>Meal Box</span>
+            </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="collapse navbar-collapse d-inline-block" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item ">
+                                <a href="howItWorks.html" class="nav-link nav-item">How It Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="Boxes.html" class="nav-link nav-item active text-success font-weight-bold">Boxes</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="F.A.Q.html" class="nav-link nav-item">F.A.Q</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="FitnessPros.html" class="nav-link nav-item">Fitness Pros</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="Contact.html" class="nav-link nav-item">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="navBox" class="text-center my-3 d-none d-lg-block" style="cursor: pointer; font-size: 120%">
+        <span class="font-weight-bold mx-4">
+            <a  class="CleanBox">Clean Box</a>
+        </span>
+        <span class="font-weight-bold mx-4">
+             <a class="SlimBox">Slim Box</a>
+        </span>
+        <span class="font-weight-bold mx-4">
+            <a  class="BulkBox">Bulk Box</a>
+        </span>
+        <span class="font-weight-bold mx-4">
+            <a  class="GlutenBox">Gluten Free Box</a>
+        </span>
+        <a href="https://www.freshii.com/mealbox/pdfs/Freshii_Meal_Box_Menu.pdf" class="mx-4 font-weight-bold" target="_blank">Download Order From</a>
+    </div>
+    <div class="d-lg-none w-100 text-center  my-3" style="cursor: pointer;">
+        <a id="op1" style="float: left; " class="text-left">option 1</a>
+        <a id="op2">option 2</a>
+        <a id="op3" style="float: right;" class="text-right">option 3</a>
+    </div>
+    <div id="cleanBox" class=" pt-3" style="display: block;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="../images/boxes/clean-box-img.jpg" alt="img" class="w-100 ">
+                </div>
+                <div class="col-lg-6" style="font-size: 13px">
+                    <h5 class="cleanBox">Clean Box</h5>
+                    <div class="cleanBox">
+                        Designed for mindful eaters or those looking to clean up their diet. Meals and snacks are made up of whole foods that are nutrient dense and minimally processed.
+                    </div>
+                    <br>
+                    <div>
+                        <div class="row option1CB">
+                            <div class="font-weight-bold cleanBox ">Option 1</div>
+                            <br>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="font-weight-bold">Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast </div>
+                            <div>eggs, spinach, mushrooms, roasted red peppers, goat cheese </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Fruit Cup - Snack</div>
+                            <div>pineapple, strawberries, mango</div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Market Salad + Chicken - Lunc</div>
+                            <div>field greens, spinach, quinoa, chicken, avocado, feta cheese, beet slaw, dried cranberries, green apple, carrots, honey dijon dressing</div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Bean & Corn Salad - Snack</div>
+                            <div>black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette</div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Khao San Quinoa Bowl + Tofu - Dinner</div>
+                            <div>quinoa, spinach, tofu, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce</div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <br>
+                        <div class="row option2CB">
+                            <div class="font-weight-bold cleanBox ">Option 2</div>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <div class="font-weight-bold">Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast </div>
+                                <div>eggs, spinach, mushrooms, roasted red peppers, goat cheese</div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Fruit Cup - Snack </div>
+                                <div>pineapple, strawberries, mango</div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Market Salad + Chicken - Lunch</div>
+                                <div>field greens, spinach, quinoa, chicken, avocado, feta cheese, beet slaw, dried cranberries, green apple, carrots, honey dijon dressing</div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Bean & Corn Salad - Snack </div>
+                                <div>black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette</div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Khao San Quinoa Bowl + Tofu - Dinner </div>
+                                <div>quinoa, spinach, tofu, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <br>
+                        <div class="row option3CB">
+                            <div class="font-weight-bold cleanBox ">Option 3</div>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <div class="font-weight-bold">Yogurt Parfait & Mighty Detox Juice - Breakfast </div>
+                                <div>yogurt parfait: greek yogurt, granola, mango, strawberries mighty detox juice: pineapple, green apple, celery, cucumber, ginger </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Village Salad - Snack </div>
+                                <div>cucumbers, tomatoes, kalamata olives, feta cheese, cilantro lime vinaigrette </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Metaboost Salad + Chicken - Lunch </div>
+                                <div>spinach, kale, field greens, chicken, goat cheese, mango, almonds, carrots, edamame, balsamic vinaigrette </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Apple & Walnuts - Snack </div>
+                                <div> </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Superfood Soup + Chicken - Dinner </div>
+                                <div>vegetable broth, chicken, quinoa, kale, broccoli, cabbage, carrots, celery, red onions</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="slimBox" class=" pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="../images/boxes/slim-box-2.jpg" alt="img" class="w-100 px-2">
+                </div>
+                <div class="col-lg-6" style="font-size: 13px">
+                    <h5 class="slimBox">Slim Box </h5>
+                    <div class="slimBox">
+                        Designed for maximum weight loss with minimal deprivation. Meals and snacks focus on lean protein and high fiber foods that are low in calories and carbohydrates. </div>
+                    <br>
+                    <div>
+                        <div class="row option1SB">
+                            <div class="font-weight-bold slimBox ">Option 1</div>
+                            <br>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="font-weight-bold">Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast </div>
+                            <div>eggs, spinach, mushrooms, roasted red peppers, goat cheese </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Fruit Cup - Snack </div>
+                            <div>pineapple, strawberries, mango </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Zen Salad + Tofu - Lunch </div>
+                            <div>spinach, romaine, tofu, edamame, cabbage, broccoli, carrots, mango, sesame seeds, asian sesame dressing </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Veggie Cup - Snack </div>
+                            <div>cucumber, celery, cherry tomatoes, greek yogurt ranch </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Superfood Soup + Chicken - Dinner </div>
+                            <div>vegetable broth, chicken, quinoa, kale, broccoli, cabbage, carrots, celery, red onions </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <br>
+                        <div class="row option2SB">
+                            <div class="font-weight-bold slimBox ">Option 2</div>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <div class="font-weight-bold">Greek Yogurt & Fruit - Breakfast </div>
+                                <div>greek yogurt, pineapple, strawberries, mango </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Bean & Corn Salad - Snack </div>
+                                <div>black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Buffalo Salad + Chicken - Lunch </div>
+                                <div>romaine, chicken, blue cheese, cherry tomatoes, carrots, celery, greek yogurt ranch, buffalo sauce </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Apple & Walnuts - Snack </div>
+                                <div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Mediterranean Salad + Falafel - Dinner </div>
+                                <div>field greens, falafel, feta cheese, kalamata olives, almonds, red onions, cucumber, roasted red peppers, tomatoes, cilantro, red pepper sauce </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <br>
+                            <div class="row option3SB">
+                                <div class="font-weight-bold slimBox ">Option 3</div>
+                            </div>
+                            <br>
+                            <div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Cranberry Almond Crunch Oatmeal - Breakfast </div>
+                                    <div>house-made oatmeal, dried cranberries, almonds </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Hard Boiled Eggs - Snack </div>
+                                    <div>two hard boiled eggs </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Metaboost Salad + Chicken - Lunch </div>
+                                    <div>spinach, kale, field greens, chicken, goat cheese, mango, almonds, carrots, edamame, balsamic vinaigrette </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Veggie Cup - Snack </div>
+                                    <div>cucumber, celery, cherry tomatoes, greek yogurt ranch </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Spicy Lemongrass Soup + Tofu - Dinner </div>
+                                    <div>spicy lemongrass broth, tofu, quinoa, cabbage, carrots, tomatoes, mushrooms, cilantro </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bulkBox" class="pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="../images/boxes/bulk-box-img.jpg" alt="img" class="w-100">
+                </div>
+                <div class="col-lg-6" style="font-size: 13px">
+                    <h5 class="bulkBox">
+                        Bulk Box </h5>
+                    <div class="bulkBox">
+                        Designed for the everyday athlete, this box provides the optimal macronutrient balance to fuel high performance workouts and build muscle. Meals and snacks are high in calories, protein, and complex carbohydrates. </div>
+                    <br>
+                    <div>
+                        <div class="row option1BB">
+                            <div class="font-weight-bold bulkBox ">Option 1</div>
+                            <br>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="font-weight-bold">Hard Boiled Eggs - Breakfast </div>
+                            <div>three hard boiled eggs </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Energii Balls - Snack </div>
+                            <div>peanut butter, oats, honey, coconut, chocolate chips </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Khao San Quinoa Bowl + Chicken - Lunch </div>
+                            <div>quinoa, spinach, chicken, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Four Seasons Nut Mix - Snack </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Teriyaki Twist Bowl + Chicken - Dinner </div>
+                            <div>brown rice, chicken, edamame, crispy wontons, broccoli, carrots, green onions, sesame seeds, teriyaki sauce </div>
+                        </div>
+                        <div class="row">
+                            <div class="font-weight-bold">Protein Powder - Additional </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div>
+                        <br>
+                        <div class="row option2BB">
+                            <div class="font-weight-bold bulkBox ">Option 2</div>
+                            <br>
+                        </div>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <div class="font-weight-bold">Bacon, Egg & Cheese Breakfast Bowl - Breakfast </div>
+                                BB
+                                <div>eggs, bacon, aged cheddar, tomatoes </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Bean & Corn Salad - Snack </div>
+                                <div>black beans, corn, edamame, cherry tomatoes, cilantro lime vinaigrette </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Buffalo Salad + Chicken - Lunch </div>
+                                <div>romaine, chicken, blue cheese, cherry tomatoes, carrots, celery, greek yogurt ranch, buffalo sauce </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Energii Balls - Snack </div>
+                                <div>peanut butter, oats, honey, coconut, chocolate chips </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Smokehouse Burrito Bowl + Steak - Dinner </div>
+                                <div>brown rice, steak, aged cheddar, black beans, red onions, tomatoes, corn, spicy yogurt sauce </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Protein Powder - Additional </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <br>
+                            <div class="row option3BB">
+                                <div class="font-weight-bold bulkBox ">Option 3</div>
+                            </div>
+                            <br>
+                            <div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Steak, Egg & Cheese Breakfast Bowl - Breakfast </div>
+                                    <div>eggs, steak, aged cheddar, tomatoes </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Yogurt Parfait - Snack </div>
+                                    <div>greek yogurt, granola, mango, strawberries </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Mediterranean Bowl + Falafel - Lunch </div>
+                                    <div>quinoa, field greens, falafel, feta cheese, kalamata olives, almonds, red onions, cucumber, roasted red peppers, tomatoes, cilantro, red pepper sauce </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Four Seasons Nut Mix - Snack </div>
+                                    <div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Pangoa Bowl + Chicken - Dinner </div>
+                                    <div>brown rice, chicken, avocado, aged cheddar, cherry tomatoes, black beans, corn, cilantro, lime wedge, fiery bbq sauce </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Protein Powder - Additional </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="glutenBox" class="pt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-none d-lg-block">
+                    <img src="../images/boxes/gluten-free-box-img.jpg" alt="img" class="w-100">
+                </div>
+                <div class="col-lg-6" style="font-size: 13px">
+                    <div>
+                        <h5 class="glutenBox">
+                            Gluten-Free Box </h5>
+                        <div class="glutenBox">
+                            Designed for those who are gluten intolerant. Meals and snacks rely on wheat and gluten free ingredients, while providing the appropriate balance of macronutrients to fuel your busy day. </div>
+                        <br>
+                        <div>
+                            <div class="row">
+                                <div class="font-weight-bold glutenBox option1GB">Option 1</div>
+                                <br>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="font-weight-bold">Spinach, Mushroom & Cheese Breakfast Bowl - Breakfast </div>
+                                <div>eggs, spinach, mushrooms, roasted red peppers, goat cheese </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Veggie Cup - Snack </div>
+                                <div>cucumber, celery, cherry tomatoes, greek yogurt ranch </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Zen Salad + Tofu - Lunch </div>
+                                <div>spinach, romaine, tofu, edamame, cabbage, broccoli, carrots, mango, sesame seeds, asian sesame dressing </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Apple & Walnuts - Snack </div>
+                                <div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="font-weight-bold">Southwestern Soup + Chicken - Dinner </div>
+                                <div>chicken broth, brown rice, chicken, aged cheddar, broccoli, tomatoes, corn, black beans </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <br>
+                            <div class="row">
+                                <div class="font-weight-bold glutenBox option2GB">Option 2</div>
+                                <br>
+                            </div>
+                            <br>
+                            <div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Hard Boiled Eggs & Mighty Detox Juice - Breakfast </div>
+                                    <div>two hard boiled eggs
+                                        <br>mighty detox juice: pineapple, green apple, celery, cucumber, ginger </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Village Salad - Snack </div>
+                                    <div>cucumbers, tomatoes, kalamata olives, feta cheese, cilantro lime vinaigrette </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Buffalo Salad + Chicken - Lunch </div>
+                                    <div>romaine, chicken, blue cheese, cherry tomatoes, carrots, celery, greek yogurt ranch, buffalo sauce </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Fruit Cup - Snack </div>
+                                    <div>pineapple, strawberries, mango </div>
+                                </div>
+                                <div class="row">
+                                    <div class="font-weight-bold">Khao San Quinoa Bowl + Tofu - Dinner </div>
+                                    <div>quinoa, spinach, tofu, edamame, mushrooms, carrots, cabbage, almonds, spicy lemongrass sauce </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div>
+                                <br>
+                                <div class="row">
+                                    <div class="font-weight-bold glutenBox  option3GB">Option 3</div>
+                                </div>
+                                <br>
+                                <div>
+                                    <div class="row">
+                                        <div class="font-weight-bold">Greek Yogurt & Fruit - Breakfast </div>
+                                        <div>greek yogurt, pineapple, strawberries, mango </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="font-weight-bold">Bean & Corn Salad - Snack </div>
+                                        <div>black beans, edamame, corn, cherry tomatoes, cilantro lime vinaigrette </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="font-weight-bold">Metaboost Salad + Chicken - Lunch </div>
+                                        <div>spinach, kale, field greens, chicken, goat cheese, mango, almonds, carrots, edamame, balsamic vinaigrette </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="font-weight-bold">Veggie Cup - Snack </div>
+                                        <div>cucumber, celery, cherry tomatoes, greek yogurt ranch </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="font-weight-bold">Mediterranean Bowl + Chicken - Dinner </div>
+                                        <div>quinoa, field greens, chicken, feta cheese, kalamata olives, almonds, red onions, cucumber, roasted red peppers, tomatoes, cilantro, red pepper sauce </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <!-- common -->
+    <div class="text-center font-weight-bold text-danger">
+        <h1><small>*Menu may vary by region*</small></h1>
+    </div>
+    <!--  -->
+    <footer class="text-center py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h4 class="font-weight-bold">Be in the know</h4>
+                    <footer>Sign up for the meal plannig hacks, exclusice offers and more</footer>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <form class="w-50 mx-auto">
+                        <div class="form-group">
+                            <select style="float: right;" class="form-group">
+                                <option class="form-control" value="english">English</option>
+                                <option class="form-control" value="france">France</option>
+                                <!-- include flags -->
+                            </select>
+                            <input type="text" class="form-control my-4 text-center" id="updatePlaceholder" placeholder="yourmail@mail.com" required>
+                            <button class="btn" id="subscribe">subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+            <div class="flex-row">
+                <div class="flex-column">
+                    <a target="_blank" href="https://www.instagram.com/freshii/" class="mx-3">
+                  <i class="fa fa-instagram  fa-2x circle"></i>
+                </a>
+                    <a target="_blank" href="https://www.facebook.com/freshii" class="mx-3">
+                  <i class="fa fa-facebook fa-2x circle"></i>
+                </a>
+                    <a target="_blank" href="https://twitter.com/freshii" class="mx-3">
+                  <i class="fa fa-twitter fa-2x circle"></i>
+                </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
